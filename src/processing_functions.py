@@ -23,7 +23,7 @@ def add_energy_contrib_column(input_df):
 # Add a '%contrib_totenergy' column based on 'Energy' and 'Total Energy (Kcal)' column
 def add_percent_contrib_totenergy_column(input_df):
     input_df = input_df.copy()
-    input_df["%contrib_totenergy"] = (input_df["Energy"] / input_df["Total Energy (Kcal)"]) * 100
+    input_df["%contrib_totenergy"] = (input_df["Energy"] / input_df["Total Energy"]) * 100
     return input_df
 
 # Add a 'ssb_consumed' column based on 'bevarage_consumed' and excluded list of beverages
