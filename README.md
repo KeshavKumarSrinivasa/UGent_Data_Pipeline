@@ -5,7 +5,7 @@ This project contains a structured data processing pipeline for cleaning and tra
 
 ### What It Does?
 
-- Sorts data by participant codes and collection day.
+- Sorts data by participant codes and other columns.
 - Adds derived columns.
 - Saves cleaned data to a processed/ folder.
     
