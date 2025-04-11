@@ -11,7 +11,7 @@ This project contains a structured data processing pipeline for cleaning and tra
     
 
 ### How to Run?
-````
+```
 pip install -r requirements.txt
 python main.py
 ```
