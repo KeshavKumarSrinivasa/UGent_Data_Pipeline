@@ -5,6 +5,7 @@ lib64/
 include/
 pyvenv.cfg
 
+datasets/raw/raw_motherfile_dietary_data.xlsx
 
 # Bytecode files
 __pycache__/
